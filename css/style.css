@@ -66,6 +66,8 @@ header {
   display: block;
   margin: 30px 0;
   background-color: #fff;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 15px;
 }
 
 .card-title {
@@ -98,11 +100,26 @@ header {
 .user-items .item img {
   width: 150px;
   height: 150px;
+  border-radius: 50%;
 }
 
 .user-items .item .username {
   color: #818181;
   margin: 10px auto;
+}
+
+.user-items .item .userprofile {
+  display: inline-block;
+  background-color: #66CCCC;
+  color: #FFFFFF;
+  font-size: smaller;
+  padding: 5px 40px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.user-items .item .userprofile:hover {
+  background-color: red;
 }
 
 footer {
